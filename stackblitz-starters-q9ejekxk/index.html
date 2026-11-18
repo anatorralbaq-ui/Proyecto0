@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Proyecto 1 HTML">
+
+  <link
+    rel="icon"
+    href="https://res.cloudinary.com/dozmlfjcl/image/upload/v1773139304/favicon.ico_szzjsn.png"
+    type="image/x-icon"
+  >
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/styles.css">
+ <script src="./js/main.js" defer></script>
+ <title>Mi página web</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container header-content">
+      <a class="logo" href="index.html">AT</a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#recursos">Recursos</a></li>
+          <li><a href="https://www.youtube.com/watch?v=SaOTVF8btg4" target="_blank">Películas</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div> 
+  </header>
+
+  <main class="container 1">
+    <div class="container header-intro">
+      <h1 class="heartbeat">Mi página web</h1>
+      <p>En mi página web explico un poco sobre mí.</p>
+    </div>
+
+    <section class="section" id="habilidades">
+      <h2>Habilidades</h2>
+      <p>
+        Se me da muy bien el trato personal. Me gusta el campo,
+        el deporte y ver películas.
+      </p>
+    </section>
+
+    <section class="section" id="recursos">
+      <h2>Recursos</h2>
+      <p>Puedes encontrar de todo en esta web.</p>
+      <img
+        src="https://res.cloudinary.com/demo/image/upload/sample.jpg"
+        width="300"
+        height="200"
+        alt="Paisaje de flores"
+      >
+    </section>
+
+    <section class="section" id="peliculas">
+      <h2>Mis películas favoritas</h2>
+      <ul class="movie-list">
+        <li>El señor de los anillos</li>
+        <li>La roca</li>
+        <li>Misión imposible</li>
+      </ul>
+    </section>
+
+    <section class="section" id="contacto">
+    <p>
+        Puedes escribirme a
+        <a href="mailto:ana@ejemplo.com">ana@ejemplo.com</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Mi página web - Ana Torralba</p>
+  </footer>
+</body>
+</html>
